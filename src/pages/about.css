@@ -1,0 +1,105 @@
+.about{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../assets/dots.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.design{
+    position: absolute;
+    top:105vh;
+    left: -100px;
+}
+.design img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align:left;
+    margin: 20px;
+}
+
+.about h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+hr{
+    width: 50vw;
+    height: 3px;
+    background-color: rgb(0, 47, 255);
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.details{
+width: 100vw;
+height: auto;
+}
+
+.aboutImage{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.aboutImage img{
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+
+}
+
+.aboutImage h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 47, 255);
+    margin-top: 10px;
+}
+
+.aboutImage span{
+    text-align: center;
+    width: 50%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.p_tag{
+    width: 60%;
+    margin-left:20px;
+    margin-top: 20px;
+    
+}
+
+.p_tag p{
+font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    text-align:left
+}
+
+.about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+

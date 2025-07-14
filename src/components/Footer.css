@@ -1,0 +1,68 @@
+.footer {
+  width: 100vw;
+  background: linear-gradient(-45deg, #c500cc, #00bfff,#c500cc, #00bfff);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.animated-gradient-bg {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(-45deg, #c500cc, #00bfff, #c500cc, #00bfff);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #66ccff;
+}
+
+.footer-copy {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.8;
+}
